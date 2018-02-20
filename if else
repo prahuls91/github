@@ -1,0 +1,34 @@
+age = 38
+if (age >= 11):
+  print ("You are eligible to see the Football match.")
+  if (age <= 20 or age >= 60):
+      print("Ticket price is $12")
+  else:
+      print("Tic kit price is $20")
+else:
+    print ("You're not eligible to buy a ticket.")
+    
+Output:
+You are eligible to see the Football match.
+Tic kit price is $20
+
+var = 100
+if var == 200:
+   print ("1 - true ")
+   print (var)
+elif var == 150:
+   print ("2 - true ")
+   print (var)
+elif var == 100:
+   print ("3 -  true ")
+   print (var)
+else:
+   print ("4 - false ")
+   print (var)
+
+print ("Good bye!")
+
+OUTPUT:
+3 -  true 
+100
+Good bye!
